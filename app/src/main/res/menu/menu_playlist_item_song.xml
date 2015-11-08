@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_notinsterenting"
+        android:title="@string/menu_playlist_notinsterenting"/>
+
+    <item
+        android:id="@+id/menu_playlater"
+        android:title="@string/menu_playlist_playlater"/>
+
+    <item
+        android:id="@+id/menu_playlist"
+        android:title="@string/menu_playlist_playlist"/>
+
+    <item
+        android:id="@+id/menu_share"
+        android:title="@string/menu_playlist_share"/>
+
+</menu>

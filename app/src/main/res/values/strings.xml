@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">PraticeYoutube</string>
+
+    <!--for subscribedchannel-->
+    <string name="subscribedchannel_recommendtitle">最新推薦影片</string>
+    <string name="subscribedchannel_recommendsubtitle">只要訂閱喜愛的頻道，您就將這些頻道推出的最新影片一網打盡。</string>
+
+    <!--for sliding tab title-->
+    <!--<string name="title_homepage">首頁</string>-->
+    <!--<string name="title_hotvideo">發燒影片</string>-->
+    <!--<string name="title_subscribedchannel">訂閱內容</string>-->
+    <!--<string name="title_account">帳戶</string>-->
+    <string-array name="slidingtab_title">
+        <item>首頁</item>
+        <item>發燒影片</item>
+        <item>訂閱內容</item>
+        <item>帳戶</item>
+    </string-array>
+
+
+    <!-- for action bar -->
+    <string name="action_search">搜尋</string>
+    <string name="action_settings">設定</string>
+    <string name="action_privacy">隱私權政策</string>
+    <string name="action_explanation_and_feedback">說明與意見回饋</string>
+    <string name="action_logout">登出</string>
+
+    <!-- for playlist menu -->
+    <string name="menu_playlist_notinsterenting">不感興趣</string>
+    <string name="menu_playlist_playlater">加入"稍後觀看"</string>
+    <string name="menu_playlist_playlist">加入播放清單</string>
+    <string name="menu_playlist_share">分享</string>
+
+    <!--for hotvideo menu-->
+    <string name="menu_hotvideo_playlater">加入"稍後觀看"</string>
+    <string name="menu_hotvideo_playlist">加入播放清單</string>
+    <string name="menu_hotvideo_share">分享</string>
+
+    <!--for share view-->
+    <string name="shareview_title">"Customized ShareView"</string>
+
+</resources>

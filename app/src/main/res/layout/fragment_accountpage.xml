@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/accountpage_accountitem"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/accountpage_background">
+
+        <ImageView
+            android:id="@+id/accountpage_rippleeffect"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/rippledrawable"/>
+
+        <ImageView
+            android:id="@+id/accountpage_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/account_image"/>
+        <TextView
+            android:id="@+id/accountpage_account"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/accountpage_image"
+            android:text="TestAccount@gmail.com"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/accountpage_account"
+            android:layout_toRightOf="@+id/accountpage_account"
+            android:src="@drawable/ic_arrow_down_full"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/accountpage_information"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/accountpage_accountitem"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/homepage_floatingbutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="70dp"
+        android:clickable="true"
+        android:src="@drawable/arrow_up"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>

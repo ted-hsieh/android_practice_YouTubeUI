@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    >
+
+    <ImageView
+        android:id="@+id/subscribedchannel_channellist_itemimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/subscribedchannel_channellist_itemtitle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/subscribedchannel_channellist_itemimage"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/subscribedchannel_channellist_iteminformation"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/subscribedchannel_channellist_itemimage"
+        android:layout_below="@+id/subscribedchannel_channellist_itemtitle"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp" />
+
+</RelativeLayout>

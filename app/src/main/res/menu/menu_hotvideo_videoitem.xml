@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_hotvideo_playlater"
+        android:title="@string/menu_hotvideo_playlater"/>
+
+    <item
+        android:id="@+id/menu_hotvideo_playlist"
+        android:title="@string/menu_hotvideo_playlist"/>
+
+    <item
+        android:id="@+id/menu_hotvideo_share"
+        android:title="@string/menu_hotvideo_share"/>
+
+</menu>
